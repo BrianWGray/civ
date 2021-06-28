@@ -69,7 +69,7 @@ def main(argv):
     radio = RadioCmd()
 
     #(cmd = ["0x18"], cmd_data = ["0x01"]) Radio power state on
-    radio.message(COMMAND, DATA)
+    radio.message(COMMAND, data)
     radio.send()
 
 if __name__ == "__main__":
